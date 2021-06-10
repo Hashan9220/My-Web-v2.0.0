@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <style>
+        h3 {
+            margin: 0;
+            font-size: 25px;
+            color: white;
+        }
+        h1{
+            font-size: 70px;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            /*border: 1px solid black ;*/
+            /*overflow-x: hidden;*/
+        }
+
+        .container > div {
+            width: 100%;
+            height: 50px;
+            position: sticky;
+            top: 0;
+        }
+
+        .container > div > div {
+            width: max-content;
+            height: max-content;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+        }
+
+        body > section > section {
+            /*background: red;*/
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: max-content;
+            height: max-content;
+        }
+
+        body > section:nth-child(1) > div {
+            background: #ff5000;
+        }
+
+        body > section:nth-child(2) {
+            background: cyan;
+        }
+
+        body > section:nth-child(2) > div {
+            background: #0022ff;
+        }
+
+        body > section:nth-child(3) {
+            background: #555454;
+        }
+
+        body > section:nth-child(3) > div {
+            background: rgba(9, 9, 9, 0.99);
+        }
+
+        body > section:nth-child(4) {
+            background: #ff2600;
+        }
+
+        body > section:nth-child(4) > div {
+            background: darkred;
+        }
+
+
+    </style>
+</head>
+<body>
+<section class="container">
+    <div>
+        <div><h3>Card 1</h3></div>
+    </div>
+    <section><h1>Hello</h1></section>
+</section>
+<section class="container">
+    <div>
+        <div><h3>Card 2</h3></div>
+    </div>
+    <section><h1>How</h1></section>
+</section>
+<section class="container">
+    <div>
+        <div><h3>Card 3</h3></div>
+    </div>
+    <section><h1>Are</h1></section>
+</section>
+<section class="container">
+    <div>
+        <div><h3>Card 4</h3></div>
+    </div>
+    <section><h1>You</h1></section>
+</section>
+</body>
+</html>

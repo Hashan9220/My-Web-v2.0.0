@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RWAD Assigment 7 CSS Slider Animation</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <style>
+        main {
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            /*border: 1px solid green;*/
+            overflow: hidden;
+        }
+
+        main > section {
+            width: 400%;
+            height: 100%;
+            display: flex;
+            border: 1px solid red;
+            animation: slider 10s infinite alternate;
+        }
+
+        section > article {
+            border: 1px solid black;
+            width: 100%;
+            height: 100%;
+        }
+
+        section > article:nth-child(1) {
+            background-size: cover;
+            background: url("assets/images/5fa3c75806cb7.jpg") no-repeat center;
+        }
+
+        section > article:nth-child(2) {
+            background-size: cover;
+            background: url("assets/images/5fa3c4b558904.jpg") no-repeat center;
+        }
+
+        section > article:nth-child(3) {
+            background-size: cover;
+            background: url("assets/images/314799.jpg") no-repeat center;
+        }
+
+        section > article:nth-child(4) {
+            background-size: cover;
+            background: url("assets/images/Portfolio background.png.jpeg") no-repeat center;
+        }
+
+        @keyframes slider {
+            0%, 20% {
+                transform: translateX(-0%)
+            }
+            25%, 45% {
+                transform: translateX(-25%)
+            }
+            50%, 70% {
+                transform: translateX(-50%)
+            }
+            75%, 100% {
+                transform: translateX(-75%)
+            }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+    </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RWAD Assigment 1</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <style>
+        /*main 4 box*/
+        section {
+            width: 50vw;
+            height: 50vh;
+            position: absolute;
+        }
+
+        section:nth-child(1) {
+            background: red;
+            top: 0;
+            left: 0;
+        }
+
+        section:nth-child(2) {
+            background: black;
+            top: 0;
+            right: 0;
+        }
+
+        section:nth-child(3) {
+            background: orangered;
+            bottom: 0;
+            left: 0;
+        }
+
+        section:nth-child(4) {
+            background: deeppink;
+            bottom: 0;
+            right: 0;
+        }
+
+        /*working on circles inside the main box*/
+        section > div {
+            width: 150px;
+            height: 150px;
+            background: white;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 100%;
+        }
+
+        /*working on box inside the circle*/
+        section > div > div {
+            width: 75px;
+            height: 75px;
+            background: red;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        /*center box*/
+        body > article {
+            width: 200px;
+            height: 200px;
+            background: white;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        /*center circle inside center box*/
+        body > article > div {
+            width: 120px;
+            height: 120px;
+            background: red;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 100%;
+        }
+
+        /*half circles*/
+        body > aside {
+            width: 100px;
+            height: 100px;
+            background: white;
+            position: absolute;
+        }
+
+        body > aside:nth-child(6) {
+            top: 0;
+            left: 0;
+            border-bottom-right-radius: 100%;
+        }
+
+        body > aside:nth-child(7) {
+            top: 0;
+            right: 0;
+            border-bottom-left-radius: 100%;
+        }
+
+        body > aside:nth-child(8) {
+            bottom: 0;
+            left: 0;
+            border-top-right-radius: 100%;
+        }
+
+        body > aside:nth-child(9) {
+            bottom: 0;
+            right: 0;
+            border-top-left-radius: 100%;
+        }
+
+        body > aside:nth-child(10) {
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 200px;
+            height: 95px;
+            border-bottom-left-radius: 120px;
+            border-bottom-right-radius: 120px;
+        }
+
+        body > aside:nth-child(11) {
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 200px;
+            height: 95px;
+            border-top-left-radius: 120px;
+            border-top-right-radius: 120px;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<article>
+    <div></div>
+</article>
+<aside></aside>
+<aside></aside>
+<aside></aside>
+<aside></aside>
+<aside></aside>
+<aside></aside>
+</body>
+</html>

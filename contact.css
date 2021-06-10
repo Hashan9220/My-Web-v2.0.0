@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script';
+    background: black;
+
+}
+.bar{
+    width: 100%;
+    height: 100px;
+    margin-left: 40px;
+}
+.name{
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    left: 40px;
+    color: white;
+
+}
+
+.nav{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin: 0;
+    display: flex;
+    right: 10%;
+}
+.nav ul{
+    position: relative;
+    display: flex;
+
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #04FA04;
+}
+.contact{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 6%;
+    margin-left: 15%;
+    text-decoration: underline;
+    text-decoration-color: #04FA04;
+}
+.learn{
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.list{
+   position: absolute;
+    /*margin: 10px;*/
+    /*padding: 10px;*/
+    width: 400px;
+    height: 50px;
+   top: 60%;
+
+
+}
+.social li{
+    margin: 5px 0 0 68px;
+    display: flex;
+}
+.fa-facebook{
+    position: absolute;
+    left: 10px;
+}
+.fa-linkedin-square{
+    position: absolute;
+    left: 10%;
+    margin-top: -5px;
+}
+.fa-youtube{
+    position: absolute;
+    left: 18%;
+    top: 16px;
+}
+.fa-twitter{
+    position: absolute;
+    left: 25%;
+    top: 16px;
+}
+.social a{
+    float: left;
+    display: inline-block;
+    line-height: 1;
+    margin-right: 20px;
+    /*margin-top: 50%;*/
+    left: 0;
+    color: #ffffff;
+
+}
+.social a i{
+    font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    margin-right: 12px;
+    transition: 0.3s;
+    /*font-size: 1.1rem;*/
+    /*transition: color .4s ease;*/
+    width: 50px;
+    height: 50px;
+    /*float: left;*/
+    /*background: blue;*/
+    display: flex;
+    flex-direction: row;
+
+}
+.social a:hover i{
+    color: #04FA04;
+}
+.address{
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    margin-top: 20%;
+    left: 10%;
+    font-size: 20px;
+    color: white;
+    border-top:1px solid rgba(255,255,255,0.5) ;
+    border-bottom:1px solid rgba(255,255,255,0.5) ;
+    border-left:1px solid rgba(255,255,255,0.5) ;
+    border-right:1px solid rgba(255,255,255,0.5) ;
+}
+.social{
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    margin-top: 20%;
+    left: 50%;
+    color: white;
+    font-size: 20px;
+    border-top:1px solid rgba(255,255,255,0.5) ;
+    border-bottom:1px solid rgba(255,255,255,0.5) ;
+    border-left:1px solid rgba(255,255,255,0.5) ;
+    border-right:1px solid rgba(255,255,255,0.5) ;
+}
+.email{
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    margin-top: 32%;
+    left: 10%;
+    font-size: 20px;
+    color: white;
+    border-top:1px solid rgba(255,255,255,0.5) ;
+    border-bottom:1px solid rgba(255,255,255,0.5) ;
+    border-left:1px solid rgba(255,255,255,0.5) ;
+    border-right:1px solid rgba(255,255,255,0.5) ;
+}
+.tel{
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    margin-top: 32%;
+    left: 50%;
+    font-size: 20px;
+    color: white;
+    border-top:1px solid rgba(255,255,255,0.5) ;
+    border-bottom:1px solid rgba(255,255,255,0.5) ;
+    border-left:1px solid rgba(255,255,255,0.5) ;
+    border-right:1px solid rgba(255,255,255,0.5) ;
+}
+#p1{
+    position: absolute;
+    left: 20%;
+    margin-top: 10%;
+}
+.address img{
+    position: absolute;
+    left: 5%;
+    margin-top: 5%;
+}
+#p2{
+    position: absolute;
+    left: 20%;
+    margin-top: 10%;
+}
+#p3{
+    position: absolute;
+    left: 20%;
+    margin-top: 10%;
+}
+.input1{
+   width: 450px;
+    padding: 30px;
+    background: black;
+    margin-top: 50%;
+    /*box-shadow: 0px 0px 10px rgba(0,0,0,0.1);*/
+}
+.input2{
+    position: absolute;
+    width: 450px;
+    padding: 30px;
+    margin-top: -8%;
+    right: 10%;
+    /*box-shadow: 0px 0px 10px rgba(0,0,0,0.1);*/
+}
+.input3{
+    position: absolute;
+    width: 1080px;
+    padding: 30px;
+    margin-top: 2%;
+
+    /*box-shadow: 0px 0px 10px rgba(0,0,0,0.1);*/
+}
+.input4{
+    position: absolute;
+    width: 1080px;
+    height: 200px;
+    padding: 30px;
+    margin-top: 15%;
+    right: 10%;
+}
+.input1 .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+
+}
+.input1 .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-bottom: 1px solid white;
+    background: black;
+}
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform: translateY(-10px);
+    font-size: 15px;
+    color: #04FA04;
+    border: none;
+}
+.input1 .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: white;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.input1 .input-data .underline{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+.input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #04FA04;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+    transform: scaleX(1);
+
+}
+.input2 .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+
+}
+.input2 .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-bottom: 1px solid white;
+    background: black;
+}
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform: translateY(-10px);
+    font-size: 15px;
+    color: #04FA04;
+    border: none;
+}
+.input2 .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: white;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.input2 .input-data .underline{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+.input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #04FA04;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+    transform: scaleX(1);
+
+}
+.input3 .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+
+}
+.input3 .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-bottom: 1px solid white;
+    background: black;
+}
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+    transform: translateY(-10px);
+    font-size: 15px;
+    color: #04FA04;
+    border: none;
+}
+.input3 .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: white;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.input3 .input-data .underline{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+.input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #04FA04;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+    transform: scaleX(1);
+
+}
+.input4 .input-data{
+    height: 200px;
+    width: 100%;
+    position: relative;
+
+}
+.input4 .input-data textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-bottom: 1px solid white;
+    background: black;
+}
+/*.input-data textarea:focus ~ label,*/
+/*.input-data textarea:valid ~ label{*/
+/*    transform: translateY(-10px);*/
+/*    font-size: 15px;*/
+/*    !*color: #04FA04;*!*/
+/*    border: none;*/
+/*}*/
+/*.input4 .input-data label{*/
+/*    position: absolute;*/
+/*    bottom: 10px;*/
+/*    left: 0;*/
+/*    color: white;*/
+/*    pointer-events: none;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+#btn{
+    position: absolute;
+    left: 40%;
+    bottom: -80%;
+    border-radius: 10px;
+
+    background-color: black;
+    border: 1px solid #04FA04;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+
+
+}
+#btn:hover{
+    background-color: #04FA04;
+    color: black;
+}

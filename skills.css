@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script';
+    background: black;
+
+}
+.bar{
+    width: 100%;
+    height: 100px;
+    margin-left: 40px;
+}
+.name{
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    left: 40px;
+    color: white;
+
+}
+
+.nav{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin: 0;
+    display: flex;
+    right: 10%;
+}
+.nav ul{
+    position: relative;
+    display: flex;
+
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #04FA04;
+}
+.skills{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10%;
+    margin-left: 20%;
+    text-decoration: underline;
+    text-decoration-color: #04FA04;
+}
+.row{
+    justify-content: space-evenly;
+    /*display: flex;*/
+    /*position: absolute;*/
+
+    left: 30%;
+}
+#circleBar{
+    position: relative;
+    margin-top: 180px;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 800px;
+    height: 700px;
+    /*background: white;*/
+    left: 15%;
+}
+#circleBar .round{
+    /*min-height: 200px;*/
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 20px;
+    background: black;
+    border: 1px solid #04FA04;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    /*overflow: hidden;*/
+    float: left;
+    /*padding: 10px;*/
+    /*margin: 20px;*/
+    left: 15%;
+    border-radius: 30px;
+
+}
+/*.container{*/
+/*    position: absolute;*/
+/*    left: 10%;*/
+/*    float: left;*/
+
+/*}*/
+#circleBar .round strong{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    transform: translate(-50%);
+    font-size: 30px;
+    color: #04FA04;
+    font-weight: 400;
+}
+#circleBar span{
+    display: block;
+    color: white;
+    font-size: 17px;
+    top: 60%;
+    /*margin-bottom-top: 10px;*/
+}
+#circleBar span i{
+    color: #04FA04;
+    font-size: 22px;
+    margin-right: 7px;
+}
+section button{
+    background-color: black;
+    border: 1px solid #04FA04;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    margin-top: -5%;
+
+}
+.btn{
+    /*justify-content: center;*/
+    /*position: absolute;*/
+    left: 50%;
+    /*margin-bottom: 10%;*/
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #04FA04;
+    color: black;
+}
+.arduino{
+    position: absolute;
+    left: 25%;
+}
+.iot{
+    position: absolute;
+    left: 25%;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="skills.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">-->
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">-->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Skills</title>
+
+    <div class="bar">
+        <div class="nav"> <ul>
+            <li><a href="index.html?_ijt=jh3dkednln7ngr4htc4aj1jih2">Home</a></li>
+            <li><a href="About.html?_ijt=94b06ppdbaklgfg2ue51m779as">About</a></li>
+            <li><a href="skills.html?_ijt=f6qistmppqq9cfda3tli8nbbjk">Skills</a></li>
+            <li><a href="project.html?_ijt=l49unumu4heoa5s4bdad78f54m">Project</a></li>
+            <li><a href="contact.html?_ijt=8890nohi7j506i3ltqpp6i3lqc">Contact</a></li>
+        </ul>
+        </div>
+        <div class="name">Hashan saminda herath</div>
+    </div>
+</head>
+
+<body>
+<div class="skills">Skills.......</div>
+<section id="circleBar">
+<div class="container">
+    <div class="row">
+        <div class="col-md-1">
+            <div class="round" data-value="0.70" data-size="150" data-thickness="12">
+                <strong></strong>
+                <span><i class="fab fa-html5"></i>
+                HTML5
+                </span>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="round" data-value="0.65" data-size="150" data-thickness="12">
+                <strong></strong>
+                <span><i class="fab fa-css3"></i>
+                CSS3
+                </span>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="round" data-value="0.54" data-size="150" data-thickness="12">
+                <strong></strong>
+                <span><i class="fab fa-jsfiddle"></i>
+               JavaScript
+                </span>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="round" data-value="0.70" data-size="150" data-thickness="12">
+                <strong></strong>
+                <span><i class='fab fa-java' style='font-size:24px'></i>
+                Java
+                </span>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="round" data-value="0.80" data-size="150" data-thickness="12">
+                <strong></strong>
+                <span><div class="arduino"><img src="arduino.png" alt=""></div>
+                Arduino
+                </span>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="round" data-value="0.60" data-size="150" data-thickness="12">
+                <strong></strong>
+                <span><div class="iot"><img src="iot.png" alt=""></div>
+                NodeMcu
+                </span>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="round" data-value="0.50" data-size="150" data-thickness="12">
+                <strong></strong>
+                <span><i class='fab fa-react' style='font-size:24px'></i>
+                React-Native
+                </span>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="round" data-value="0.40" data-size="150" data-thickness="12">
+                <strong></strong>
+                <span><i class='fas fa-power-off' style='font-size:24px'></i>
+                Spring boot
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+    <button class="btn" onClick="Circlle('.round')">Refresh</button>
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.0/circle-progress.min.js"></script>
+<script>
+
+    function Circlle(el) {
+        $(el).circleProgress({fill:{color:'#04FA04'}})
+        .on('circle-animation-progress',function (event,progress,stepValue) {
+            $(this).find('strong').text(String(stepValue.toFixed(2)).substr(2)+'%');
+
+        });
+
+    };
+    Circlle('.round');
+
+
+</script>
+</body>
+</html>

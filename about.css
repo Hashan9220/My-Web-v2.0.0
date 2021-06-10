@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script';
+    background: black;
+
+}
+
+.bar{
+    width: 100%;
+    height: 100px;
+    margin-left: 40px;
+}
+.name{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    left: 10%;
+    color: white;
+
+}
+
+.nav{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    right: 10%;
+}
+.nav ul{
+    position: relative;
+    display: flex;
+
+}
+ .nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #04FA04;
+}
+.main{
+    position: absolute;
+    width: 950px;
+    height: 700px;
+    left: 80px;
+    margin-top: 5%;
+    /*border: 1px solid white;*/
+    /*background: blue;*/
+
+}
+.about{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: underline;
+    text-decoration-color: #04FA04;
+}
+.learn{
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.ui{
+    position: absolute;
+    right: 30%;
+    margin-top: 12%;
+    color: #04FA04;
+    font-weight: 400;
+    font-size: 26px;
+
+}
+.topic{
+    position: absolute;
+    left: 41%;
+    margin-top: 16%;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    width: 550px;
+    /*background: aqua;*/
+}
+.img{
+    /*position: absolute;*/
+    width: 350px;
+    height: 400px;
+    /*background: blue;*/
+    font-size: 40px;
+    margin-top: 20%;
+    left: 20px;
+    color:white;
+}
+.list{
+    position: absolute;
+    left: 40%;
+    margin-bottom: 20%;
+    width: 500px;
+    height: 300px;
+    margin-top: 20%;
+    z-index: 1;
+    font-size: 18px;
+    color: white;
+    list-style: none;
+    letter-spacing: 3px;
+
+}
+
+.list li{
+    margin: 30px 30px 0 20px;
+    float: left;
+    padding: 30px 20px 0 20px;
+
+}
+.list li:before{
+    content:"\003E";
+    color: #04FA04;
+}
+.scl{
+    position: absolute;
+    /*background: white;*/
+    width: 450px;
+    height: 150px;
+    margin-top: 30px;
+}
+.course{
+    position: absolute;
+    margin-top: 35px;
+    left: 50%;
+    width: 400px;
+    height: 150px;
+}
+.img2{
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 150px;
+    height: 70px;
+}
+.page2{
+    position: absolute;
+    width:240px ;
+    height: 100px;
+    align-items: center;
+    left: 40%;
+    /*top: 10px;*/
+    color: white;
+
+}
+.img5{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100px;
+    height: 100px;
+
+}
+.page{
+    position: absolute;
+    width:260px ;
+    height: 100px;
+    align-items: center;
+    left: 30%;
+    top: 10%;
+    color: white;
+}

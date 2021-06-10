@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script';
+
+}
+.main{
+    /*background: url("Hashan.png");*/
+    /*background-image: url("Hashan.png");*/
+    background: black;
+    position: relative;
+    /*width:100%;*/
+    min-height: 80vh;
+    padding: 100px;
+    display: flex;
+}
+.name{
+    position: absolute;
+    /*display: inline-block;*/
+    color: #ffffff;
+    /*font-weight: 400;*/
+    font-size: 50px;
+    width: 600px;
+    height: 200px;
+    font-weight: 400;
+    margin-top: 20%;
+    align-items: center;
+    /*margin-left: 40px;*/
+
+
+}
+.act{
+    position: absolute;
+    color: #ffffff;
+    font-size: 30px;
+    width: 600px;
+    height: 200px;
+    font-weight: 400;
+    margin-top: 25%;
+    align-items: center;
+
+}
+.act a{
+    text-decoration: underline;
+    text-decoration-color: #04FA04;
+}
+.nav{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin-top: 30%;
+    left: 40px;
+}
+.nav ul{
+    position: relative;
+    display: flex;
+
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 20px;
+
+    text-decoration: none;
+
+}
+.nav ul li a:hover{
+    color: #04FA04;
+}
+
+.media{
+    position: absolute;
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;text-align: center;*/
+    width: 400px;
+    height: 50px;
+    margin-top: 33%;
+    left: 70px;
+
+
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    margin: 1rem 0 3rem 0;
+
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.social a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    width: 50px;
+    height: 50px;
+}
+.social a:hover i{
+    color: #04FA04;
+}
+.ima {
+    /*position: relative;*/
+    /*float: left;*/
+    /*left: 50%;*/
+    /*right: 10px;*/
+    /*z-index: 1;*/
+    top: 30%;
+    /*border: none;*/
+    /*display: flex;*/
+    /*justify-content:flex-start;*/
+}
+.ima img{
+    position: absolute;
+    right: 10%;
+    top: 33.5%;
+}
+

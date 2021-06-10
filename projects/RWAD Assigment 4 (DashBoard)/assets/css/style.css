@@ -1,0 +1,132 @@
+.nav_bar {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    /*background: url("../images/ijse.png");*/
+    position: absolute;
+    height: 80px;
+    width: 350px;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    margin: auto;
+}
+
+.logo > img {
+    height: 80px;
+    /*width: 250px;*/
+    /*border: 1px solid black;*/
+}
+
+.nav_buttons {
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.nav_buttons > ul {
+    list-style: none;
+}
+
+.nav_buttons > ul > li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav_buttons > ul > li > a {
+    color: #554c4c;
+}
+
+/*main contect styling start*/
+.main_content {
+    position: relative;
+
+}
+
+main {
+    position: relative;
+}
+
+.side_nav_bar {
+    position: absolute;
+    width: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: blue;
+}
+
+.side_nav_bar > ul {
+    list-style: none;
+}
+
+.side_nav_bar > ul > li {
+    padding: 10px;
+}
+
+.side_nav_bar>ul>li>a{
+    color: black;
+    font-size: 20px;
+}
+
+.main_sub_Section {
+    margin-left: 300px;
+}
+
+.main_sub_Section > section  {
+    position: relative;
+    height: 350px;
+}
+
+.main_sub_Section > section > div {
+    height: 100%;
+    width: calc((100% / 3) * 1);
+    position: absolute;
+}
+
+.main_sub_Section > section > div:nth-child(1) {
+    left: 0;
+    background-size: cover;
+    background: url("../images/gif.gif") center;
+
+}
+
+.main_sub_Section > section > div:nth-child(2) {
+    left: calc((100% / 3) * 1);
+    background-size: cover;
+    background: url("../images/gif.gif") center;
+}
+
+.main_sub_Section >  section >div:nth-child(3) {
+    left: calc((100% / 3) * 2);
+    background-size: cover;
+    background: url("../images/gif.gif") center;
+}
+
+.main_sub_Section > p {
+    margin: 0;
+    padding: 10px;
+}
+
+/*Footer styling*/
+body > footer {
+    height: 50px;
+    background: #423c3c;
+}
+
+footer > h3 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
