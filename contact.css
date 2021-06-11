@@ -213,13 +213,13 @@ body{
     position: absolute;
     width: 450px;
     padding: 30px;
-    margin-top: -8%;
+    margin-top: -7%;
     right: 10%;
     /*box-shadow: 0px 0px 10px rgba(0,0,0,0.1);*/
 }
 .input3{
     position: absolute;
-    width: 1080px;
+    width: 1150px;
     padding: 30px;
     margin-top: 2%;
 
@@ -227,7 +227,7 @@ body{
 }
 .input4{
     position: absolute;
-    width: 1080px;
+    width: 1150px;
     height: 200px;
     padding: 30px;
     margin-top: 15%;
@@ -413,10 +413,12 @@ body{
 /*    pointer-events: none;*/
 /*    transition: all 0.3s ease;*/
 /*}*/
-#btn2{
+.btn2{
     position: absolute;
     left: 40%;
-    bottom: -80%;
+    /*top: 100%;*/
+    bottom: -140%;
+
     border-radius: 10px;
 
     background-color: black;
@@ -430,7 +432,7 @@ body{
 
 
 }
-#btn2:hover{
+.btn2:hover{
     background-color: #04FA04;
     color: black;
 }
