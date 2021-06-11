@@ -7,12 +7,12 @@ body{
     background: black;
 
 }
-.bar{
+.bar3{
     width: 100%;
     height: 100px;
     margin-left: 40px;
 }
-.name{
+.name4{
     width: 300px;
     height: 100px;
     font-size: 30px;
@@ -23,7 +23,7 @@ body{
 
 }
 
-.nav{
+.nav4{
     position: absolute;
     width: 400px;
     height: 100px;
@@ -31,25 +31,25 @@ body{
     display: flex;
     right: 10%;
 }
-.nav ul{
+.nav4 ul{
     position: relative;
     display: flex;
 
 }
-.nav ul li{
+.nav4 ul li{
     list-style: none;
 }
-.nav ul li a{
+.nav4 ul li a{
     display: inline-block;
     color: #ffffff;
     font-weight: 400;
     margin-left: 20px;
     text-decoration: none;
 }
-.nav ul li a:hover{
+.nav4 ul li a:hover{
     color: #04FA04;
 }
-.learn{
+.learn4{
     position: absolute;
     color: white;
     font-size: 36px;
@@ -67,7 +67,7 @@ body{
     text-decoration: underline;
     text-decoration-color: #04FA04;
 }
-.main{
+.main4{
 position: relative;
     width: 950px;
     height: 100%;
@@ -403,7 +403,7 @@ position: relative;
     opacity: 1;
 
 }
-.main .project01 .image{
+.main4 .project01 .image{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -412,7 +412,7 @@ position: relative;
 
 }
 
-.main .project02 .image{
+.main4 .project02 .image{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -420,7 +420,7 @@ position: relative;
     top: 20%;
 
 }
-.main .project03 .image{
+.main4 .project03 .image{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -428,7 +428,7 @@ position: relative;
     top: 20%;
 
 }
-.main .project04 .image{
+.main4 .project04 .image{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -436,7 +436,7 @@ position: relative;
     top: 25%;
 
 }
-.main .project05 .image{
+.main4 .project05 .image{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -444,7 +444,7 @@ position: relative;
     top: 25%;
 
 }
-.main .project06 .image{
+.main4 .project06 .image{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -452,7 +452,7 @@ position: relative;
     top: 25%;
 
 }
-.main .project07 .image{
+.main4 .project07 .image{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -460,7 +460,7 @@ position: relative;
     top: 25%;
 
 }
-.main .project08 .image{
+.main4 .project08 .image{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -468,7 +468,7 @@ position: relative;
     top: 25%;
 
 }
-.main .project09 .image{
+.main4 .project09 .image{
     position: absolute;
     width: 50px;
     height: 50px;

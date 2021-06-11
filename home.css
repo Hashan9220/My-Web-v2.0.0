@@ -6,7 +6,7 @@ body{
     font-family: 'Kaushan Script';
 
 }
-.main{
+.main1{
     /*background: url("Hashan.png");*/
     /*background-image: url("Hashan.png");*/
     background: black;
@@ -16,7 +16,7 @@ body{
     padding: 100px;
     display: flex;
 }
-.name{
+.name1{
     position: absolute;
     /*display: inline-block;*/
     color: #ffffff;
@@ -31,7 +31,7 @@ body{
 
 
 }
-.act{
+.act1{
     position: absolute;
     color: #ffffff;
     font-size: 30px;
@@ -42,26 +42,26 @@ body{
     align-items: center;
 
 }
-.act a{
+.act1 a{
     text-decoration: underline;
     text-decoration-color: #04FA04;
 }
-.nav{
+.nav1{
     position: absolute;
     width: 400px;
     height: 100px;
     margin-top: 30%;
     left: 40px;
 }
-.nav ul{
+.nav1 ul{
     position: relative;
     display: flex;
 
 }
-.nav ul li{
+.nav1 ul li{
     list-style: none;
 }
-.nav ul li a{
+.nav1 ul li a{
     display: inline-block;
     color: #ffffff;
     font-weight: 400;
@@ -70,7 +70,7 @@ body{
     text-decoration: none;
 
 }
-.nav ul li a:hover{
+.nav1 ul li a:hover{
     color: #04FA04;
 }
 
@@ -88,30 +88,30 @@ body{
 
 }
 
-.social{
+.social1{
     list-style: none;
     display: flex;
     margin: 1rem 0 3rem 0;
 
 }
-.social li{
+.social1 li{
     margin: 0 10px;
 }
-.social a{
+.social1 a{
     text-decoration: none;
     color: #ffffff;
 
 }
-.social a i{
+.social1 a i{
     font-size: 1.1rem;
     transition: color .4s ease;
     width: 50px;
     height: 50px;
 }
-.social a:hover i{
+.social1 a:hover i{
     color: #04FA04;
 }
-.ima {
+.ima1 {
     /*position: relative;*/
     /*float: left;*/
     /*left: 50%;*/
@@ -122,7 +122,7 @@ body{
     /*display: flex;*/
     /*justify-content:flex-start;*/
 }
-.ima img{
+.ima1 img{
     position: absolute;
     right: 10%;
     top: 33.5%;

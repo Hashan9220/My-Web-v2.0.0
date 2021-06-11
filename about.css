@@ -13,7 +13,7 @@ body{
     height: 100px;
     margin-left: 40px;
 }
-.name{
+.name2{
     position: absolute;
     width: 300px;
     height: 100px;
@@ -25,7 +25,7 @@ body{
 
 }
 
-.nav{
+.nav2{
     position: absolute;
     width: 400px;
     height: 100px;
@@ -33,25 +33,25 @@ body{
     display: flex;
     right: 10%;
 }
-.nav ul{
+.nav2 ul{
     position: relative;
     display: flex;
 
 }
- .nav ul li{
+ .nav2 ul li{
     list-style: none;
 }
-.nav ul li a{
+.nav2 ul li a{
     display: inline-block;
     color: #ffffff;
     font-weight: 400;
     margin-left: 20px;
     text-decoration: none;
 }
-.nav ul li a:hover{
+.nav2 ul li a:hover{
     color: #04FA04;
 }
-.main{
+.main2{
     position: absolute;
     width: 950px;
     height: 700px;
@@ -71,7 +71,7 @@ body{
     text-decoration: underline;
     text-decoration-color: #04FA04;
 }
-.learn{
+.learn2{
     position: absolute;
     color: white;
     font-size: 36px;
@@ -108,7 +108,7 @@ body{
     left: 20px;
     color:white;
 }
-.list{
+.list2{
     position: absolute;
     left: 40%;
     margin-bottom: 20%;
@@ -123,13 +123,13 @@ body{
 
 }
 
-.list li{
+.list2 li{
     margin: 30px 30px 0 20px;
     float: left;
     padding: 30px 20px 0 20px;
 
 }
-.list li:before{
+.list2 li:before{
     content:"\003E";
     color: #04FA04;
 }
